@@ -344,7 +344,7 @@ def welcome_plan(message):
 /logs : All Users Logs.
 /broadcast : Broadcast a Message.
 /clearlogs : Clear The Logs File.
-@CRACKWARS_DANGER
+@dakkucheats
 '''
     bot.reply_to(message, response)
 
