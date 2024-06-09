@@ -246,9 +246,9 @@ def handle_bgmi(message):
                 subprocess.run(full_command, shell=True)
                 response = f"BGMI Attack Finished. Target: {target} Port: {port} Time: {time}"
         else:
-            response = "Usage :- /bgmi <target> <port> <time>\n@CRACKWARS_DANGER"  # Updated command syntax
+            response = "Usage :- /bgmi <target> <port> <time>\n@dakkucheats"  # Updated command syntax
     else:
-        response = "You Are Not Authorized To Use This Command.\n@CRACKWARS_DANGER"
+        response = "You Are Not Authorized To Use This Command.\n@dakkucheats"
 
     bot.reply_to(message, response)
 
@@ -285,7 +285,7 @@ def show_help(message):
 
  To See Admin Commands:
  /admincmd : Shows All Admin Commands.
- @CRACKWARS_DANGER
+ @dakkucheats
 '''
     for handler in bot.message_handlers:
         if hasattr(handler, 'commands'):
@@ -326,10 +326,10 @@ Vip :
 -> Concurrents Attack : 300
 
 Pr-ice List:
-Day-->150 Rs
+Day-->200 Rs
 Week-->900 Rs
 Month-->1600 Rs
-@CRACKWARS_DANGER
+@dakkucheats
 '''
     bot.reply_to(message, response)
 
