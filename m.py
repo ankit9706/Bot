@@ -312,7 +312,7 @@ def welcome_rules(message):
 1. Dont Run Too Many Attacks !! Cause A Ban From Bot
 2. Dont Run 2 Attacks At Same Time Becz If U Then U Got Banned From Bot. 
 3. We Daily Checks The Logs So Follow these rules to avoid Ban!!
-@CRACKWARS_DANGER'''
+@dakkucheats'''
     bot.reply_to(message, response)
 
 @bot.message_handler(commands=['plan'])
